@@ -1,4 +1,9 @@
 name: NaleumFramework
+<<<<<<< HEAD
 version: '1.0.1'
 main: com.github.NaleumFramework
+=======
+version: '1.0.0'
+main: NaLeum.naleumFramework.NaleumFramework
+>>>>>>> b4d1a35a0e6c26c44f6b17f51c88db33a5fbb2b4
 api-version: '1.20'
