@@ -4,26 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-<<<<<<< HEAD
     <groupId>com.github</groupId>
     <artifactId>NaleumFramework</artifactId>
     <version>1.0.1</version>
     <packaging>jar</packaging>
 
-=======
-    <groupId>com.github.DevNyanHa</groupId>
-    <artifactId>NaleumFramework</artifactId>
-    <version>1.0.0</version>
-    <packaging>jar</packaging>
-
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/DevNyanHa/NaleumFramework</url>
-        </repository>
-    </distributionManagement>
-
->>>>>>> b4d1a35a0e6c26c44f6b17f51c88db33a5fbb2b4
     <name>NaleumFramework</name>
 
     <properties>
