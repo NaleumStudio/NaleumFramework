@@ -1,6 +1,6 @@
 package com.github;
 
-import com.github.utils.CL;
+import com.github.NlFramework.utils.CL;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class NaleumFramework extends JavaPlugin {
