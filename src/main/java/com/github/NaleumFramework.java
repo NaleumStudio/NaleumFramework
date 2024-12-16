@@ -12,6 +12,7 @@ public final class NaleumFramework extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
+        saveDefaultConfig();
         CL.Send("&9Naleum&bFrameWork &7Enable", this);
         CL.Send("&7Support Discord &8: &9https://discord.gg/XbxTxdf7jh", this);
         FILE.createFolderINE(this.getDataFolder());
