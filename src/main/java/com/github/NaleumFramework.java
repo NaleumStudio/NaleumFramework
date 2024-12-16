@@ -17,6 +17,7 @@ public final class NaleumFramework extends JavaPlugin {
         CL.Send("&7Support Discord &8: &9https://discord.gg/XbxTxdf7jh", this);
         FILE.createFolderINE(this.getDataFolder());
         FILE.createFolderINE(new File(this.getDataFolder(), "DB"));
+        PluginConfig.ReloadConfig();
     }
 
     public static NaleumFramework getInstance() {
