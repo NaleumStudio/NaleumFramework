@@ -6,10 +6,12 @@ import java.sql.*;
 import java.io.File;
 import java.sql.Connection;
 import java.util.HashMap;
+import com.github.PluginConfig;
 
 public class SQLITE {
     public static HashMap<String, Connection> database = new HashMap<>();
     public static void Connect(String DB) {
+        if (!PluginConfig.enableDB) { return; }
         File dbFile = new File(NaleumFramework.getInstance().getDataFolder(), "DB" + File.separator + DB + ".db");
 
         String url = "jdbc:sqlite:" + dbFile.getAbsolutePath();
@@ -23,6 +25,7 @@ public class SQLITE {
         }
     }
     public static void CreateTable(String DB, String table, String[] fields, String pri) {
+        if (!PluginConfig.enableDB) { return; }
         StringBuilder SQL = new StringBuilder
                 ("CREATE TABLE IF NOT EXISTS " + table + " (" + pri + " TEXT PRIMARY KEY");
 
@@ -44,6 +47,7 @@ public class SQLITE {
         }
     }
     public static String Get(String DB, String table, String field, String key, String keyValue) {
+        if (!PluginConfig.enableDB) { return null; }
         if (database.get(DB) == null) {
             CL.Send("&9[SQLITE] &cDatabase not found", NaleumFramework.getInstance());
             return null;
