@@ -36,7 +36,7 @@ database:
   DB: NaleumFramework
 ```
 
-## 2. Developer API (Maven)
+## 2. Developer API (Maven 지원예정)
 Before getting started, you need to build the `NaleumFramework.jar` file.
 Please place the downloaded file into your plugins folder.
 
