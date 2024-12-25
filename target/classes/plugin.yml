@@ -1,0 +1,10 @@
+name: NaleumFramework
+version: '1.1.1'
+main: com.github.NaleumFramework
+api-version: '1.20'
+commands:
+  nlreload:
+    description: reload NaleumFramework
+    usage: /nlreload
+
+softdepend: ["PlaceholderAPI"]
