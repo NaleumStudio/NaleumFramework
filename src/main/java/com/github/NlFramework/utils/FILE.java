@@ -8,7 +8,7 @@ public class FILE {
         if (!folder.exists() && folder.mkdirs()) {
             CL.Send("&b[FILE] &7Successfully created the &a" + folder.getName(), NaleumFramework.getInstance());
         } else if (!folder.exists()) {
-            CL.Send("&b[FILE] &aFailed to create the " + folder.getName(), NaleumFramework.getInstance());
+            CL.Send("&b[FILE] &cFailed to create the " + folder.getName(), NaleumFramework.getInstance());
         }
     }
 }
