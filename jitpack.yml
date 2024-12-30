@@ -1,4 +1,11 @@
-before_install:
-  - sdk install java 17.0.11-oracle
-  - sdk install java 21.0.3-oracle
-  - sdk use java 17.0.11-oracle
+jdk:
+  - openjdk17
+
+install:
+  - MAVEN_VERSION=3.8.8
+  - curl -sL https://apache.osuosl.org/maven/maven-3/$MAVEN_VERSION/binaries/apache-maven-$MAVEN_VERSION-bin.tar.gz | tar -xz -C /usr/local
+  - export PATH=/usr/local/apache-maven-$MAVEN_VERSION/bin:$PATH
+
+build:
+  commands:
+    - mvn clean package
