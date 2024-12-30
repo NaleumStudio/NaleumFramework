@@ -1,11 +1,6 @@
 jdk:
   - openjdk17
 
-install:
-  - MAVEN_VERSION=3.8.8
-  - curl -sL https://apache.osuosl.org/maven/maven-3/$MAVEN_VERSION/binaries/apache-maven-$MAVEN_VERSION-bin.tar.gz | tar -xz -C /usr/local
-  - export PATH=/usr/local/apache-maven-$MAVEN_VERSION/bin:$PATH
-
 build:
   commands:
     - mvn clean package
