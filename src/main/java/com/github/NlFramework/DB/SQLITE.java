@@ -64,7 +64,7 @@ public class SQLITE {
         try (Connection conn = getConnection(); PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(1, KEY);
             pstmt.setString(2, VALUE);
-            pstmt.executeUpdate(); // 쿼리 실행
+            pstmt.executeUpdate();
         } catch (Exception e) {
             CL.Send("&9[SQLITE] &cFailed to insert key-value pair", instance);
             e.printStackTrace();
