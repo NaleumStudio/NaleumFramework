@@ -29,6 +29,7 @@ public final class NaleumFramework extends JavaPlugin {
         instance.saveResource("HttpServer/index.html", false);
         instance.saveResource("HttpServer/script.js", false);
         instance.saveResource("HttpServer/style.css", false);
+        instance.saveResource("HttpServer/assets/logo.png", false);
         //HttpServer
         if (PluginConfig.enableHttpServer) {
             try {
