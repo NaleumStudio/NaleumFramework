@@ -18,7 +18,7 @@ public class SQLITE {
     private final JavaPlugin instance;
 
     public static void InitDatabase(JavaPlugin instance) {
-        FILE.createFolderINE(instance.getDataFolder());
+        FILE.createFolder(instance.getDataFolder());
 
         File DB = new File(instance.getDataFolder(), "data.db");
         if (!DB.exists()) {

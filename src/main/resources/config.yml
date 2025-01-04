@@ -1,3 +1,7 @@
 PlaceHolderAPI: true
 database:
   enabled: true
+HttpServer:
+  enabled: true
+  server-ip: localhost
+  port: 8080

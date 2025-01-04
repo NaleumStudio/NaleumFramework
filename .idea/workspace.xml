@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cbddc23-d22d-4bfa-b6a7-dd43775655fc" name="변경" comment="Update" />
+    <list default="true" id="8cbddc23-d22d-4bfa-b6a7-dd43775655fc" name="변경" comment="Update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/NlFramework/utils/HttpServerHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/HttpServer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/HttpServer/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/HttpServer/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/NaleumFramework.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/NaleumFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/NaleumFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/NlFramework/DB/SQLITE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/NlFramework/DB/SQLITE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/NlFramework/utils/FILE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/NlFramework/utils/FILE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/PluginConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/PluginConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +26,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -57,6 +72,7 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/lis13/Downloads/JetBrains ja-netfilter-all Build 2024.1.11 (1)/ja-netfilter-all/ja-netfilter.jar",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -143,7 +159,10 @@
       <workItem from="1735955058760" duration="5000" />
       <workItem from="1735955139396" duration="22000" />
       <workItem from="1735955170395" duration="41000" />
-      <workItem from="1735955220888" duration="296000" />
+      <workItem from="1735955220888" duration="698000" />
+      <workItem from="1735957009747" duration="95000" />
+      <workItem from="1735976593355" duration="10000" />
+      <workItem from="1735977318572" duration="6374000" />
     </task>
     <task id="LOCAL-00001" summary="SQLLITE">
       <option name="closed" value="true" />
@@ -353,11 +372,30 @@
       <option name="project" value="LOCAL" />
       <updated>1735955256833</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Update">
+      <option name="closed" value="true" />
+      <created>1735957030883</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1735957030883</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SQLLITE" />
